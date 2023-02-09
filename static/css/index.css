@@ -9,6 +9,7 @@
 }
 .nav-link:hover{
     color: blue;
+    cursor: pointer;
     
 }
 input.nosubmit {
@@ -28,7 +29,8 @@ input.nosubmit {
     width: 110px;
     padding-top: 12px;
     height: 48px;
-
+ 
+    
 }
 .signupbtn{
     color: white;
@@ -43,7 +45,7 @@ input.nosubmit {
 .loginbtn:hover{
     color: white;
     background: blue;
-    
+    cursor: pointer;
     
 
 }
@@ -51,7 +53,7 @@ input.nosubmit {
 .signupbtn:hover{
     color: blue;
     border: 1px solid blue; 
-    
+    cursor: pointer;
 
 }
 .bannerclass{
@@ -115,15 +117,15 @@ input.nosubmit {
 .try_calc:hover{
     color: blue;
     border: 1px solid blue;
-    
+    cursor: pointer;
 }
 .thirdclass{
     background-color: white;
-    width: 60%;
+    width: 67%;
     height: 450px;
     text-align: center;
     margin-top: 80px;
-    margin-left: 18%;
+    margin-left: 16.5%;
 
 
 }
@@ -136,7 +138,7 @@ input.nosubmit {
 }
 .important{
     text-align: center;
-    width: 60%;
+    width: 57%;
     margin-left: 23%;
     font-size: 18px;
     color: rgba(35, 34, 41, 0.9);
@@ -150,16 +152,33 @@ input.nosubmit {
     margin: 10px;
     
 }
-.class1inner span{
-    
-    padding: 20px;
-    border-radius: 60%;
-    font-size: 35px;
+.stepclass {
+ 
+    padding: 15px 25px;
+    border-radius: 100%;
+    font-size: 36px;
     color: white;
     background-color: #2c45ff;
-    
-
 }
+
+.stepclass1 {
+ 
+    padding: 15px 25px;
+    border-radius: 100%;
+    font-size: 36px;
+    color: white;
+    background-color: #2c45ff;
+}
+.stepclass::after{
+    content: "";
+    height: 2px;
+    margin: 27px;
+    margin-left: 58px;
+    position: absolute;
+    width: 173px;
+    background-color: #2c45ff;
+}
+
 .class1inner p{
     font-size: 18px;
     margin: 0;
@@ -174,4 +193,148 @@ input.nosubmit {
     margin-top: 35px;
 }
 
+section{
+    background-color: #fafafa;
+}
+.calculate{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 70px;
+    color: black;
 
+}
+.sectionclass{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 61%;
+    padding-bottom: 3%;
+    margin: 3% 0% 0% 20.5%;
+}
+.card1{
+    width: 275px;
+    height: 250px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #ffffff;
+
+}
+.card1:hover{
+    box-shadow: 8px 8px 16px 0px rgb(8, 16, 75, 11%);
+    cursor: pointer;
+}
+.card1:hover .btn1{
+    color: #ffffff;
+    background-color: #2c45ff;
+    cursor: pointer;
+    
+
+}
+.card-img-top1{
+    width: auto;
+    height: 150px;
+}
+.card-title1{
+    color: #4f4f4f;
+    font-size: 16px;
+    margin: 10px;
+}
+.btn1{
+    padding: 3px 30px 8px 30px;
+    border: 1px solid blue;
+    border-radius: 20px;
+    font-size: 15px;
+    font-family:  sans-serif;
+}
+footer{
+    background-color: #ffffff;
+}
+.footerclass{
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 4%;
+    
+
+}
+
+
+.footerdiv{
+    margin-top: 20px;
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 45px;
+    padding-top: 40px;
+    padding-bottom: 5px;
+}
+.footerdiv h3{
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.footerdiv p{
+    color: black;
+    font-size: 15px;
+    margin-top: 30px;
+    
+}
+.footerdiv1 ul{
+    padding: 0px;
+    
+}
+.footerdiv1 li{
+    color: #2c45ff;
+    list-style-type: none;
+    line-height: 250%;
+    
+}
+.footerdiv1 li a{
+    text-decoration: none;
+    font-size: 16px;
+    
+}
+
+.lastclass ul{
+    margin-top: 25px;
+    
+}
+.lastclass li{
+    
+    padding-left: 40px;
+    list-style-type: none;
+    line-height: 250%;
+    
+}
+.lastclass li a{
+    padding-left: ;
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    
+}
+.callclass a{
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='21.89' height='21.93' viewBox='0 0 21.89 21.93'%3E%3Cg id='Group' transform='translate(0.889 1)'%3E%3Cpath id='Path' d='M19.888,14.92v3a2,2,0,0,1-2.18,2,19.79,19.79,0,0,1-8.63-3.07,19.5,19.5,0,0,1-6-6A19.79,19.79,0,0,1,.008,2.18,2,2,0,0,1,2,0H5A2,2,0,0,1,7,1.72a12.84,12.84,0,0,0,.7,2.81,2,2,0,0,1-.45,2.11L5.978,7.91a16,16,0,0,0,6,6l1.27-1.27a2,2,0,0,1,2.11-.45,12.84,12.84,0,0,0,2.81.7A2,2,0,0,1,19.888,14.92Z' transform='translate(0.112 0)' fill='none' stroke='%231a1a24' stroke-linecap='round' stroke-linejoin='round' stroke-miterlimit='10' stroke-width='2'/%3E%3C/g%3E%3C/svg%3E%0A");
+    background-repeat: no-repeat;
+    padding-left: 36px;
+}
+.mailclass a{
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='22.785' height='18' viewBox='0 0 22.785 18'%3E%3Cg id='Group' transform='translate(1.393 1)'%3E%3Cpath id='Path' d='M2,0H18a2.006,2.006,0,0,1,2,2V14a2.006,2.006,0,0,1-2,2H2a2.006,2.006,0,0,1-2-2V2A2.006,2.006,0,0,1,2,0Z' transform='translate(0 0)' fill='none' stroke='%231a1a24' stroke-linecap='round' stroke-linejoin='round' stroke-miterlimit='10' stroke-width='2'/%3E%3Cpath id='Path-2' data-name='Path' d='M20,0,10,7,0,0' transform='translate(0 2)' fill='none' stroke='%231a1a24' stroke-linecap='round' stroke-linejoin='round' stroke-miterlimit='10' stroke-width='2'/%3E%3C/g%3E%3C/svg%3E%0A");
+    background-repeat: no-repeat;
+    padding-left: 36px;
+    
+}
+.mapclass a{
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='24' viewBox='0 0 20 24'%3E%3Cg id='call_black_24dp_copy' data-name='call_black_24dp copy' transform='translate(1 1)'%3E%3Cg id='Group' transform='translate(0 0)'%3E%3Cpath id='Path' d='M18,9c0,7-9,13-9,13S0,16,0,9A9,9,0,0,1,18,9Z' transform='translate(0 0)' fill='none' stroke='%231a1a24' stroke-linecap='round' stroke-linejoin='round' stroke-miterlimit='10' stroke-width='2'/%3E%3Ccircle id='Oval' cx='3' cy='3' r='3' transform='translate(6 6)' fill='none' stroke='%231a1a24' stroke-linecap='round' stroke-linejoin='round' stroke-miterlimit='10' stroke-width='2'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");
+    background-repeat: no-repeat;
+    padding-left: 36px;
+    padding-bottom: 10px;
+}
+
+.lastfooter{
+    margin-top: -15px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 13px;
+}
